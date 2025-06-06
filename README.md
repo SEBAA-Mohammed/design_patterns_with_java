@@ -13,7 +13,7 @@ The root directory contains a separate folder for each design pattern, for examp
 ```
 abstract_factory/
 bridge/
-builder_karimi/
+builder/
 chain_of_responsibility/
 command/
 composite/
