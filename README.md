@@ -1,43 +1,62 @@
-# Design Patterns Exercises
+# Java Design Patterns Practice
 
-This repository contains implementations of various design patterns as part of a series of practical exercises (TPs).
+This repository contains hands-on implementations of various design patterns in Java. Each folder in the root directory is named after a specific design pattern and contains a standalone Maven project dedicated to that pattern.
+
+## Purpose
+
+This repository was created to practice and demonstrate the implementation of classic design patterns in Java. Each project is self-contained and can be explored independently.
 
 ## Structure
 
-The project is organized into separate packages for each design pattern exercise:
+The root directory contains a separate folder for each design pattern, for example:
 
 ```
-DESIGN_PATTERNS_ATELIERS/
-├── TP1/
-├── TP2/
-├── TP3/
-...
-└── TP16/
+abstract_factory/
+bridge/
+builder_karimi/
+chain_of_responsibility/
+command/
+composite/
+decorateur/
+facade/
+factory_method/
+fllyweight/
+interpreter/
+iterator/
+mediator/
+momento/
+observer/
+prototype/
+proxy/
+singleton/
+state/
+strategie/
+template_method/
+visitor/
 ```
 
-Each TP directory contains the implementation of specific design patterns along with necessary documentation and examples.
+Each folder is a Maven project with the following structure:
+
+- `src/main/` — Contains the main source code and demo classes for the pattern.
+- `src/test/` — (If present) Contains unit tests.
+- `pom.xml` — Maven configuration for the project.
+
+## Running the Demos
+
+To run a demo for any design pattern, navigate to the corresponding folder and execute the main class located in the `src/main/` directory. Each demo is designed to showcase the core idea and usage of the pattern.
 
 ## Requirements
 
 - Java JDK 8 or higher
+- Maven
 - Your preferred Java IDE (Eclipse, IntelliJ IDEA, or VS Code)
 
 ## Getting Started
 
 1. Clone this repository
-2. Open the project in your preferred IDE
-3. Navigate to specific TP directories to view and run the implementations
+2. Open the desired pattern's folder in your IDE
+3. Build and run the main class in `src/main/` to see the pattern in action
 
-## Design Patterns Covered
+---
 
-The exercises will cover various design patterns including:
-
-- Creational Patterns
-- Structural Patterns
-- Behavioral Patterns
-
-Each pattern implementation includes:
-
-- Source code
-- Documentation
-- Usage examples
+Feel free to explore, modify, and experiment with the code to deepen your understanding of design patterns in Java!
